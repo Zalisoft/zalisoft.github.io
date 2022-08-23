@@ -17,6 +17,12 @@ Building for production
 yarn build
 ```
 
+Building for production and static deploying to GitHub Pages (gh-pages branch)
+
+```bash
+yarn deploy
+```
+
 Run in production mode
 
 ```bash
