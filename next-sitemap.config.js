@@ -1,0 +1,18 @@
+/**
+ * @type {import('next-sitemap').IConfig}
+ * @see https://github.com/iamvishnusankar/next-sitemap#readme
+ */
+module.exports = {
+  siteUrl: "https://zalisoft.com",
+  generateRobotsTxt: true,
+  robotsTxtOptions: {
+    policies: [
+      {
+        userAgent: "*",
+        allow: "/",
+      },
+      // { userAgent: "*", disallow: "/admin" },
+      // ...
+    ],
+  },
+};
