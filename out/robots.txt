@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://zalisoft.com
+
+# Sitemaps
+Sitemap: https://zalisoft.com/sitemap.xml
