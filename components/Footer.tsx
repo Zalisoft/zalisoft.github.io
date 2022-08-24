@@ -41,7 +41,7 @@ const Footer = () => {
             <Link href="/">Ana Sayfa</Link>
             <Link href="/hakkimizda">Hakkımızda</Link>
             <Link href="/hizmetlerimiz">Hizmetler</Link>
-            <Link href="/blog">Blog</Link>
+            {/*<Link href="/blog">Blog</Link>*/}
             <Link href="/iletisim">iletişim</Link>
           </div>
           <div className="flex flex-col gap-y-2 hover:[&>table>tbody>tr>td>a]:underline first:[&>table>tbody>tr>td]:pr-2">
@@ -116,12 +116,12 @@ const Footer = () => {
           >
             <Linkedin className="h-5 w-5" />
           </a>
-          <Link
-            href="/admin/blog"
-            className="rounded-full p-2 hover:bg-white/20"
-          >
-            <UserIcon className="h-5 w-5" />
-          </Link>
+          {/*<Link*/}
+          {/*  href="/admin/blog"*/}
+          {/*  className="rounded-full p-2 hover:bg-white/20"*/}
+          {/*>*/}
+          {/*  <UserIcon className="h-5 w-5" />*/}
+          {/*</Link>*/}
         </div>
       </div>
     </footer>

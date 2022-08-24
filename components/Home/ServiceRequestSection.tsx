@@ -86,7 +86,7 @@ const ServiceRequestSection = () => {
         // @ts-ignore
         if (errors[subject]) {
           // @ts-ignore
-          toast.error(errors[subject].message);
+          toast.error(errors[subject].message, { id: "toast" });
           return;
         }
       }
@@ -112,11 +112,12 @@ const ServiceRequestSection = () => {
     })
       .then(() => {
         toast.success(
-          "Talebiniz başarıyla bize ulaştı. Kısa bir süre içinde sizinle iletişime geçeceğiz."
+          "Talebiniz başarıyla bize ulaştı. Kısa bir süre içinde sizinle iletişime geçeceğiz.",
+          { id: "toast" }
         );
       })
       .catch((e: AxiosError) => {
-        toast.error("Bir hata oluştu. Lütfen tekrar deneyin.");
+        toast.error("Bir hata oluştu. Lütfen tekrar deneyin.", { id: "toast" });
       })
       .finally(() => {
         setLoading(false);
@@ -251,7 +252,6 @@ const ServiceRequestSection = () => {
           </AnimateHeight>
         </form>
       </section>
-      <Toaster position="top-center" />
     </PagePaddingContainer>
   );
 };

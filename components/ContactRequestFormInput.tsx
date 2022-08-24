@@ -30,14 +30,17 @@ const ContactRequestFormInput = ({
       reachUs(emailInput)
         .then(() => {
           toast.success(
-            "E-postanız başarıyla bize ulaştı. Kısa bir süre içinde sizinle iletişime geçeceğiz."
+            "E-postanız başarıyla bize ulaştı. Kısa bir süre içinde sizinle iletişime geçeceğiz.",
+            { id: "toast" }
           );
         })
         .catch((e: AxiosError) => {
-          toast.error("Bir hata oluştu. Lütfen tekrar deneyin.");
+          toast.error("Bir hata oluştu. Lütfen tekrar deneyin.", {
+            id: "toast",
+          });
         })
         .finally(() => setLoading(false));
-    } else toast.error("Lütfen e-postanızı giriniz.");
+    } else toast.error("Lütfen e-postanızı giriniz.", { id: "toast" });
   }
 
   const animate = sm && animation;

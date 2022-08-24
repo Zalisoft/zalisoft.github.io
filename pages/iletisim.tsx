@@ -55,7 +55,7 @@ const ContactUs = () => {
         // @ts-ignore
         if (errors[subject]) {
           // @ts-ignore
-          toast.error(errors[subject].message);
+          toast.error(errors[subject].message, { id: "toast" });
           return;
         }
       }
@@ -74,12 +74,13 @@ const ContactUs = () => {
     })
       .then(() => {
         toast.success(
-          "Mesajınız başarıyla bize ulaştı. Kısa bir süre içinde sizinle iletişime geçeceğiz."
+          "Mesajınız başarıyla bize ulaştı. Kısa bir süre içinde sizinle iletişime geçeceğiz.",
+          { id: "toast" }
         );
         router.push("/");
       })
       .catch((e: AxiosError) => {
-        toast.error("Bir hata oluştu. Lütfen tekrar deneyin.");
+        toast.error("Bir hata oluştu. Lütfen tekrar deneyin.", { id: "toast" });
       })
       .finally(() => {
         setLoading(false);

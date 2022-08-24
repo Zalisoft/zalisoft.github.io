@@ -19,6 +19,7 @@ import ServiceRequestSection from "@/components/Home/ServiceRequestSection";
 import TeamAppLanding from "@/components/TeamAppLanding";
 import FloatingCardsSection from "@/components/Home/FloatingCardsSection";
 import DelayedAnimateReveal from "@/components/DelayedAnimateReveal";
+import { Toaster } from "react-hot-toast";
 
 const Home: NextPage = () => {
   const { sm } = useResponsive({});
@@ -126,6 +127,7 @@ const Home: NextPage = () => {
           </HorizontalSlidingTrack>
         </DelayedAnimateReveal>
       </section>
+      <Toaster position="top-center" />
     </>
   );
 };
