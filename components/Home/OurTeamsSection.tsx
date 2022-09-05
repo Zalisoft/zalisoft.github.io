@@ -55,7 +55,7 @@ const OurTeamsSection = () => {
               "Kreatif Ekip Üyeleri",
               "Hızlı ve Teknolojik Çözümler",
             ]}
-            description="Yaratıcılık ve keşfetme konusunda tutkulu ve bu enerjiyi dijital tasarım ürünleri üretmeye harcayan genç, dinamik ve yaratıcı bir ekibiz. Biz grafik tasarım, ilüstrasyon, web dizayn, mobil dizayn, logo dizayn sosyal medya dizayn ve daha fazla tasarım işi için güvenebileceğiniz bir takımız."
+            description="Yaratıcılık ve keşfetme konusunda tutkulu ve bu enerjiyi dijital tasarım ürünleri üretmeye harcayan genç, dinamik ve yaratıcı bir ekibiz. Biz grafik tasarım, illüstrasyon, web tasarım, mobil tasarım, logo tasarımı, sosyal medya tasarımı ve daha fazla tasarım projesi için güvenebileceğiniz bir iş ortağıyız."
             link="/takimlarimiz/octo-creativity"
           />
         </SwiperSlide>
@@ -68,7 +68,7 @@ const OurTeamsSection = () => {
               "Kreatif Ekip Üyeleri",
               "Hızlı ve Teknolojik Çözümler",
             ]}
-            description="En aktif çalışan takımlarımızdan biri olan web takımımız, web alanında en iyi hizmeti vermek için günden güne büyüyor ve kendini geliştiriyor. Projelerininzin, özgün çalışmalarımızla diğer projelerin arasından sıyrılmasını isterseniz doğru yerdesiniz."
+            description="En aktif çalışan takımlarımızdan biri olan web takımımız, web alanında en iyi hizmeti vermek için günden güne büyüyor ve kendini geliştiriyor. Projelerinizin, özgün çalışmalarımızla diğer projelerin arasından sıyrılmasını isterseniz doğru yerdesiniz."
             link="/takimlarimiz/web"
           />
         </SwiperSlide>
@@ -81,7 +81,7 @@ const OurTeamsSection = () => {
               "Kreatif Ekip Üyeleri",
               "Hızlı ve Teknolojik Çözümler",
             ]}
-            description="Mobil uygulamaların kullanımı ve popülerliği gün geçtikçe artarken mobil ekibimizle son teknolojiler kullanarak fikirlerinize özgü mobil uygulamalar geliştiriyoruz. Projelerinizi dijitale taşıdığımız bu süreçte mobil ekibimiz yanınızda size eşlik ediyor olacak."
+            description="Mobil uygulamaların kullanımı ve popülerliği gün geçtikçe artarken mobil ekibimizle son teknolojileri kullanarak fikirlerinize özgü mobil uygulamalar geliştiriyoruz. Projelerinizi mobile taşıdığımız bu süreçte mobil ekibimiz size eşlik edecek."
             link="/takimlarimiz/mobile"
           />
         </SwiperSlide>
@@ -107,7 +107,7 @@ const OurTeamsSection = () => {
               "Kreatif Ekip Üyeleri",
               "Hızlı ve Teknolojik Çözümler",
             ]}
-            description="Sadece yazılım ve tasarım alanlarıyla sınırlı kalmayıp aynı zamanda e-ticaret alanında da çalışmalarımız olmaktadır. E-ticaret takımımız Worthaze bu çalışmaları sürdürmektedir."
+            description="Sadece yazılım ve tasarım alanlarıyla sınırlı kalmayıp aynı zamanda e-ticaret alanında da çalışmalarımız olmaktadır. E-ticaret takımımız Worthaze bu çalışmaları sürdürmektedir. Bu konuda danışmanlık, ekibe dahil olmak ya da destekçimiz olmak isterseniz iletişime geçebilirsiniz."
             link="/takimlarimiz/worthaze"
           />
         </SwiperSlide>

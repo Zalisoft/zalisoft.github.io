@@ -104,6 +104,24 @@ const Home: NextPage = () => {
         id="business-partners"
         className="my-20 flex scroll-mt-20 flex-col items-center"
       >
+        <DelayedAnimateReveal enabledDelay={2000}>
+          <HorizontalSlidingTrack className="h-16 items-center gap-8 [&>*]:h-14 [&>*]:w-32 [&>*]:cursor-pointer [&>*]:object-contain [&>*]:opacity-50 [&>*]:transition-[opacity,transform] [&>*]:duration-500 hover:[&>*]:scale-110 hover:[&>*]:opacity-100">
+            <img src="/images/mobile-logo.png" alt="Mobile logo" />
+            <img src="/images/devops-logo.png" alt="Devops logo" />
+            <img src="/images/worthaze-logo.png" alt="Worthaze logo" />
+            <img src="/images/zalisoft-social.png" alt="Social logo" />
+            <img
+              src="/images/octo-logo.png"
+              alt="Octo logo"
+              className="h-full"
+            />
+            <img
+              src="/images/backend-logo.png"
+              alt="Web logo"
+              className="h-full"
+            />
+          </HorizontalSlidingTrack>
+        </DelayedAnimateReveal>
         <PagePaddingContainer>
           <Title>İş Ortaklarımız</Title>
           <p className="mb-10 max-w-2xl text-center">
@@ -114,14 +132,22 @@ const Home: NextPage = () => {
         {/*TODO Solve Width auto issue*/}
         <DelayedAnimateReveal enabledDelay={2000}>
           <HorizontalSlidingTrack className="h-16 items-center gap-8 [&>*]:h-14 [&>*]:w-32 [&>*]:cursor-pointer [&>*]:object-contain [&>*]:opacity-50 [&>*]:transition-[opacity,transform] [&>*]:duration-500 hover:[&>*]:scale-110 hover:[&>*]:opacity-100">
-            <img src="/PNGs/mobile-logo.png" alt="Mobile logo" />
-            <img src="/PNGs/devops-logo.png" alt="Devops logo" />
-            <img src="/PNGs/worthaze-logo.png" alt="Worthaze logo" />
-            <img src="/PNGs/zalisoft-social.png" alt="Social logo" />
-            <img src="/PNGs/octo-logo.png" alt="Octo logo" className="h-full" />
             <img
-              src="/PNGs/backend-logo.png"
-              alt="Web logo"
+              src="/images/our-business-partners/as-logo.png"
+              alt="AS logo"
+            />
+            <img
+              src="/images/our-business-partners/filiz-turanli-logo.png"
+              alt="Filiz Turanli logo"
+            />
+            <img src="/images/our-business-partners/g-logo.png" alt="G logo" />
+            <img
+              src="/images/our-business-partners/lazarun-logo.png"
+              alt="Lazarun logo"
+            />
+            <img
+              src="/images/our-business-partners/tur-filo-logo.png"
+              alt="Tur Filo logo"
               className="h-full"
             />
           </HorizontalSlidingTrack>

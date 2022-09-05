@@ -118,7 +118,7 @@ const ContactUs = () => {
             </label>
             <input
               className="h-[54px] w-full rounded-[16px] bg-white p-3 outline-none placeholder:text-sm placeholder:text-gray"
-              placeholder="E-posta adresinizi giriniz.."
+              placeholder="E-posta adresiniz"
               {...register("email")}
             />
             <label className="mb-1 mt-8 font-medium text-dark">
