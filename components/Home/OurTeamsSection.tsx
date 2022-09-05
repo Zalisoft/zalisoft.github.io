@@ -82,7 +82,7 @@ const OurTeamsSection = () => {
               "Hızlı ve Teknolojik Çözümler",
             ]}
             description="Mobil uygulamaların kullanımı ve popülerliği gün geçtikçe artarken mobil ekibimizle son teknolojileri kullanarak fikirlerinize özgü mobil uygulamalar geliştiriyoruz. Projelerinizi mobile taşıdığımız bu süreçte mobil ekibimiz size eşlik edecek."
-            link="/takimlarimiz/mobile"
+            link="/takimlarimiz/mobil"
           />
         </SwiperSlide>
         <SwiperSlide>

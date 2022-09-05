@@ -31,7 +31,7 @@ const SocialTeam = () => {
                   className="h-[326px] w-full max-w-[678px] rounded-[36px]"
                 />
               </div>
-              <div className=" max-h-[340px] md:basis-[50%]">
+              <div className="md:basis-[50%] [@media_(min-width:767px)]:max-h-[340px]">
                 <p className="text-justify text-sm font-medium text-dark">
                   &emsp;Sosyal medya artık hayatımızın çok önemli bir kısmını
                   kaplıyor. Gerek iş olsun gerek kişisel yaşamımız olsun sürekli

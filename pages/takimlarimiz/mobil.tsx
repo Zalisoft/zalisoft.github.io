@@ -36,7 +36,7 @@ const MobileTeam = () => {
                   className="h-[326px] w-full max-w-[678px] rounded-[36px]"
                 />
               </div>
-              <div className=" max-h-[340px] max-w-[560px] md:basis-[50%]">
+              <div className=" max-w-[560px] md:basis-[50%] [@media_(min-width:767px)]:max-h-[340px]">
                 <p className="text-justify text-sm font-medium text-dark">
                   &emsp;Mobil uygulamaların kullanımı ve popülerliği gün
                   geçtikçe artarken mobil ekibimizle son teknolojiler kullanarak
@@ -75,38 +75,38 @@ const MobileTeam = () => {
               />
             </div>
           </div>
-          <div className="mt-20 mb-32 flex flex-col items-center">
+          <div className="mt-20 mb-32 flex w-full flex-col items-center [@media_(max-width:430px)]:px-5">
             <p className="text-4xl font-medium text-main-blue">
               Tamamlanan İşlerimiz
             </p>
             <div className="w-full">
-              <div className="justify-left mt-14 flex flex-row flex-wrap">
+              <div className="mt-14 flex flex-row flex-wrap justify-start sm-max:justify-center">
                 <p className="text-2xl font-medium text-gray">
                   Anneler Satıyor Mobil Uygulaması
                 </p>
               </div>
-              <div className="mt-9 flex w-full flex-row flex-wrap justify-center gap-9">
-                <div>
+              <div className="mt-9 flex w-full flex-row justify-center sm-max:flex-wrap [@media_(min-width:1150px)]:gap-9">
+                <div className="h-[553px] w-[550px]">
                   <NextImage
                     src={mobileAs1}
                     alt="finished-works"
-                    className="h-[553px] w-[550px]"
+                    className="h-full w-full"
                     objectFit="scale-down"
                   />
                 </div>
-                <div>
+                <div className="h-[553px] w-[550px]">
                   <NextImage
                     src={mobileAs2}
                     alt="finished-works"
-                    className="h-[553px] w-[550px]"
+                    className="h-full w-full"
                     objectFit="scale-down"
                   />
                 </div>
-                <div>
+                <div className="h-[553px] w-[550px]">
                   <NextImage
                     src={mobileAs3}
                     alt="finished-works"
-                    className="h-[553px] w-[550px]"
+                    className="h-full w-full"
                     objectFit="scale-down"
                   />
                 </div>
@@ -118,28 +118,28 @@ const MobileTeam = () => {
                   TeamApp Mobil Uygulaması
                 </p>
               </div>
-              <div className="mt-9 flex flex-row flex-wrap justify-center gap-9">
-                <div>
+              <div className="mt-9 flex w-full flex-row  justify-center sm-max:flex-wrap [@media_(min-width:1150px)]:gap-9">
+                <div className="h-[553px] w-[550px]">
                   <NextImage
                     src={mobileTeamApp1}
                     alt="finished-works"
-                    className="h-[553px] w-[550px]"
+                    className="h-full w-full"
                     objectFit="scale-down"
                   />
                 </div>
-                <div>
+                <div className="h-[553px] w-[550px]">
                   <NextImage
                     src={mobileTeamApp2}
                     alt="finished-works"
-                    className="h-[553px] w-[550px]"
+                    className="h-full w-full"
                     objectFit="scale-down"
                   />
                 </div>
-                <div>
+                <div className="h-[553px] w-[550px]">
                   <NextImage
                     src={mobileTeamApp3}
                     alt="finished-works"
-                    className="h-[553px] w-[550px]"
+                    className="h-full w-full"
                     objectFit="scale-down"
                   />
                 </div>

@@ -82,7 +82,7 @@ export const teams: Team[] = [
     description:
       "Mobil uygulamaların kullanımı ve popülerliği gün geçtikçe artarken mobil ekibimizle son teknolojiler kullanarak fikirlerinize özgü mobil uygulamalar geliştiriyoruz. Projelerinizi dijitale taşıdığımız bu süreçte mobil ekibimiz yanınızda size eşlik ediyor olacak",
     images: [mobileImage],
-    link: "takimlarimiz/mobile",
+    link: "takimlarimiz/mobil",
     skills: [
       "Flutter",
       "Dart",

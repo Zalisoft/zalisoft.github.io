@@ -29,7 +29,7 @@ const WebTeam = () => {
                   className="h-[326px] w-full max-w-[678px] rounded-[36px]"
                 />
               </div>
-              <div className=" max-h-[340px] max-w-[560px] md:basis-[50%]">
+              <div className="max-w-[560px] md:basis-[50%] [@media_(min-width:767px)]:max-h-[340px]">
                 <p className="text-justify text-sm font-medium text-dark">
                   &emsp;En aktif çalışan takımlarımızdan biri olan web
                   takımımız, web alanında en iyi hizmeti vermek için günden güne
@@ -45,7 +45,7 @@ const WebTeam = () => {
               </div>
             </div>
           </div>
-          <div className="mt-20 flex min-h-[462px] w-4/5 flex-row justify-center gap-9 md-max:flex-wrap">
+          <div className="mt-20 flex min-h-[462px] w-[%93] flex-row justify-center gap-9 md-max:flex-wrap [@media_(min-width:767px)]:w-4/5">
             <div className="flex basis-full justify-center md:basis-[50%]">
               <TechList
                 data={teams[1].skills}

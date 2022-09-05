@@ -32,7 +32,7 @@ const BackendTeam = () => {
                   className="h-[326px] w-full max-w-[678px] rounded-[36px]"
                 />
               </div>
-              <div className=" max-h-[340px] max-w-[560px] md:basis-[50%]">
+              <div className="max-w-[560px] md:basis-[50%] [@media_(min-width:767px)]:max-h-[340px]">
                 <p className="text-justify text-sm font-medium text-dark">
                   &emsp; Bir mobil uygulama ya da web sitesi Backend&rsquo;i
                   olmadan yapması gerekenleri yerine getiremez. Frontend ne
