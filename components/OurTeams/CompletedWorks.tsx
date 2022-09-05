@@ -4,13 +4,13 @@ import NextImage from "../NextImage";
 import Button from "../Button";
 import ArrowDown from "@/public/icons/arrow-down-long.svg";
 
-import bonnoyMacbook1 from "@/public/PNGs/macbook/bonnoy-macbook-1.png";
-import bonnoyMacbook2 from "@/public/PNGs/macbook/bonnoy-macbook-2.png";
-import bonnoyMacbook3 from "@/public/PNGs/macbook/bonnoy-macbook-3.png";
+import bonnoyMacbook1 from "@/public/images/macbook/bonnoy-macbook-1.png";
+import bonnoyMacbook2 from "@/public/images/macbook/bonnoy-macbook-2.png";
+import bonnoyMacbook3 from "@/public/images/macbook/bonnoy-macbook-3.png";
 
-import asMacbook1 from "@/public/PNGs/macbook/as-macbook-1.png";
-import asMacbook2 from "@/public/PNGs/macbook/as-macbook-2.png";
-import asMacbook3 from "@/public/PNGs/macbook/as-macbook-3.png";
+import asMacbook1 from "@/public/images/macbook/as-macbook-1.png";
+import asMacbook2 from "@/public/images/macbook/as-macbook-2.png";
+import asMacbook3 from "@/public/images/macbook/as-macbook-3.png";
 
 const CompletedWorks = () => {
   return (

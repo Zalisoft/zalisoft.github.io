@@ -1,7 +1,7 @@
 import { StaticImageData } from "next/image";
 import React from "react";
 import NextImage from "../NextImage";
-import CheckSVG from "../../public/SVGs/check.svg";
+import CheckSVG from "../../public/icons/check.svg";
 import Link from "next/link";
 
 export type Team = {

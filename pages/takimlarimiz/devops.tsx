@@ -1,7 +1,7 @@
 import PagePaddingContainer from "@/components/PagePaddingContainer";
 import PageTopSectionContainer from "@/components/PageTopSectionContainer";
 import React from "react";
-import devopsImage from "@/public/PNGs/web-slider1.png";
+import devopsImage from "@/public/images/web-slider1.png";
 import TechList from "@/components/OurTeams/TechList";
 import NextImage from "@/components/NextImage";
 import { teams } from "@/components/OurTeams/teams";

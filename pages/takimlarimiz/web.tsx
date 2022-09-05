@@ -4,7 +4,7 @@ import React from "react";
 import TechList from "@/components/OurTeams/TechList";
 import NextImage from "@/components/NextImage";
 import { teams } from "@/components/OurTeams/teams";
-import webTeamImage from "@/public/PNGs/web-team-image.png";
+import webTeamImage from "@/public/images/web-team-image.png";
 import CompletedWorks from "@/components/OurTeams/CompletedWorks";
 import Seo from "@/components/Seo";
 

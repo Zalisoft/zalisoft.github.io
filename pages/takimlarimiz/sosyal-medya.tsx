@@ -3,7 +3,7 @@ import PageTopSectionContainer from "@/components/PageTopSectionContainer";
 import React from "react";
 import TechList from "@/components/OurTeams/TechList";
 import { teams } from "@/components/OurTeams/teams";
-import socialMediaTeamImage from "@/public/PNGs/social-media-team.png";
+import socialMediaTeamImage from "@/public/images/social-media-team.png";
 import NextImage from "@/components/NextImage";
 import Seo from "@/components/Seo";
 

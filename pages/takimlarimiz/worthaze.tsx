@@ -3,7 +3,7 @@ import PageTopSectionContainer from "@/components/PageTopSectionContainer";
 import React from "react";
 import TechList from "@/components/OurTeams/TechList";
 import { teams } from "@/components/OurTeams/teams";
-import worthazeSliderImage1 from "@/public/PNGs/worthaze-slider-1.png";
+import worthazeSliderImage1 from "@/public/images/worthaze-slider-1.png";
 import NextImage from "@/components/NextImage";
 import Seo from "@/components/Seo";
 

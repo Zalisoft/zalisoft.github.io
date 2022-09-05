@@ -6,13 +6,13 @@ import NextImage from "@/components/NextImage";
 import Button from "@/components/Button";
 import ArrowDown from "@/public/icons/arrow-down-long.svg";
 import { teams } from "@/components/OurTeams/teams";
-import mobileAs1 from "@/public/PNGs/phone/mobile-as-1.png";
-import mobileAs2 from "@/public/PNGs/phone/mobile-as-2.png";
-import mobileAs3 from "@/public/PNGs/phone/mobile-as-3.png";
-import mobileTeamApp1 from "@/public/PNGs/phone/mobile-team-app-1.png";
-import mobileTeamApp2 from "@/public/PNGs/phone/mobile-team-app-2.png";
-import mobileTeamApp3 from "@/public/PNGs/phone/mobile-team-app-3.png";
-import mobileTeamImage from "@/public/PNGs/mobile-team-page-image.png";
+import mobileAs1 from "@/public/images/phone/mobile-as-1.png";
+import mobileAs2 from "@/public/images/phone/mobile-as-2.png";
+import mobileAs3 from "@/public/images/phone/mobile-as-3.png";
+import mobileTeamApp1 from "@/public/images/phone/mobile-team-app-1.png";
+import mobileTeamApp2 from "@/public/images/phone/mobile-team-app-2.png";
+import mobileTeamApp3 from "@/public/images/phone/mobile-team-app-3.png";
+import mobileTeamImage from "@/public/images/mobile-team-page-image.png";
 import Seo from "@/components/Seo";
 
 const MobileTeam = () => {

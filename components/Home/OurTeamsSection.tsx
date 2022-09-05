@@ -11,12 +11,12 @@ import "swiper/css/autoplay";
 // Swiper modules
 import { Autoplay, Pagination, Navigation } from "swiper";
 import TeamPreview from "@/components/Home/TeamPreview";
-import octoLogo from "../../public/PNGs/octo-logo.png";
-import webLogo from "../../public/PNGs/backend-logo.png";
-import sosyalLogo from "../../public/PNGs/zalisoft-social.png";
-import worthazeLogo from "../../public/PNGs/worthaze-logo.png";
-import devopsLogo from "../../public/PNGs/devops-logo.png";
-import mobilLogo from "../../public/PNGs/mobile-logo.png";
+import octoLogo from "../../public/images/octo-logo.png";
+import webLogo from "../../public/images/backend-logo.png";
+import sosyalLogo from "../../public/images/zalisoft-social.png";
+import worthazeLogo from "../../public/images/worthaze-logo.png";
+import devopsLogo from "../../public/images/devops-logo.png";
+import mobilLogo from "../../public/images/mobile-logo.png";
 
 const OurTeamsSection = () => {
   const { sm } = useResponsive({ watchPoints: ["sm"] });
