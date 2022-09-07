@@ -72,7 +72,11 @@ const ServiceRequestSection = () => {
     "Frontend",
     "Web Sitesi",
     "Mobil Uygulama",
-    "Sosyal medya tasarımı",
+    "Sosyal Medya Tasarımı",
+    "Reklam Görseli Tasarlama",
+    "Tabela Tasarımı",
+    "Web Sitesi Danışmanlığı",
+    "Karakter Tasarımı",
   ];
 
   function resetFilter() {
@@ -129,9 +133,8 @@ const ServiceRequestSection = () => {
       <section className="flex flex-col items-center">
         <Title>Aceleniz mi var?</Title>
         <p className="mb-10 max-w-2xl text-center">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu lobortis
-          integer eu in. Ipsum magna a vestibulum erat ultricies gravida egestas
-          amet turpis.
+          Eğer aceleniz varsa aşağıda sizin için oluşturduğumuz başlıklardan en
+          uygun olanı seçip bizimle iletişime geçebilirsiniz.
         </p>
         <form
           className="flex flex-col items-center"
@@ -213,7 +216,7 @@ const ServiceRequestSection = () => {
               </label>
               <input
                 className="h-[54px] w-full rounded-[16px] bg-neutral-100 p-3 outline-none placeholder:text-sm placeholder:text-gray"
-                placeholder="E-posta adresinizi giriniz.."
+                placeholder="E-posta adresiniz"
                 {...register("email")}
               />
               <label className="mb-1 mt-8 font-medium text-dark">

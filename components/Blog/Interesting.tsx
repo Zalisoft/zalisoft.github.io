@@ -1,6 +1,6 @@
 import React from "react";
 import NextImage from "../NextImage";
-import blogImage3 from "@/public/PNGs/blogImage3.png";
+import blogImage3 from "@/public/images/blogImage3.png";
 
 const Interesting = (): JSX.Element => {
   return (

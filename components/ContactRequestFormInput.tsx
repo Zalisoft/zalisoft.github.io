@@ -66,7 +66,7 @@ const ContactRequestFormInput = ({
           } rounded-l-full text-dark outline-none`}
           type="email"
           name="email"
-          placeholder="E-posta adresinizi yazmalısınız :)"
+          placeholder="E-posta adresiniz"
         />
         <Button isLoading={loading} className="flex gap-3" type="submit">
           <SendIcon />

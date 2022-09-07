@@ -2,7 +2,7 @@ import React, { ComponentPropsWithoutRef } from "react";
 import RightArrow from "../../public/icons/arrow-right-long.svg";
 import Button from "@/components/Button";
 import Link, { LinkProps } from "next/link";
-import CheckSVG from "../../public/SVGs/check.svg";
+import CheckSVG from "../../public/icons/check.svg";
 import { twMerge } from "tailwind-merge";
 import NextImage from "@/components/NextImage";
 import { ImageProps } from "next/image";

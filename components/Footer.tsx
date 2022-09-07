@@ -34,7 +34,7 @@ const Footer = () => {
           Mail listemize kaydolarak güncellemelerden haberdar olabilirsiiz ve
           güncel kalabilirsiniz.
         </p>
-        <ContactRequestFormInput />
+        <ContactRequestFormInput showAgreements={false} />
         <div className="flex flex-col gap-y-5 py-5 text-sm sm:flex-row sm:gap-[20%]">
           <div className="flex flex-col gap-y-2 hover:[&>a]:underline">
             <h3 className="text-xl ">Menü</h3>
@@ -55,20 +55,16 @@ const Footer = () => {
                   </td>
                 </tr>
                 <tr>
-                  <td>Ofis:</td>
-                  <td>0502 00 14</td>
-                </tr>
-                <tr>
                   <td>Adres:</td>
                   <td>
-                    Konak Mah. 1.Badem cad. Lotus Plaza no:26A iç kapı no: 68
-                    Nilüfer/Bursa
+                    Konak mah. 1. Badem Caddesi Lotus Plaza <br />
+                    No: 26B İç Kapı No: 68 Nilüfer/Bursa
                   </td>
                 </tr>
                 <tr>
                   <td>E-Posta:</td>
                   <td>
-                    <a href="mailto:zalisoft@gmail.com">zalisoft@gmail.com</a>
+                    <a href="mailto:info@zalisoft.com">info@zalisoft.com</a>
                   </td>
                 </tr>
               </tbody>

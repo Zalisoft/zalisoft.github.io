@@ -1,6 +1,6 @@
 import React from "react";
 import NextImage from "../NextImage";
-import blogImage from "@/public/PNGs/blogImage.png";
+import blogImage from "@/public/images/blogImage.png";
 import Edit from "@/public/icons/edit.svg";
 
 const AdminCard = (): JSX.Element => {

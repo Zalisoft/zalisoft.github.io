@@ -1,7 +1,7 @@
 import React from "react";
 import { AsideArrowIcon, AsideDateIcon, AsideFileIcon } from "../AsideIcon";
 import NextImage from "../NextImage";
-import blogImage from "@/public/PNGs/blogImage.png";
+import blogImage from "@/public/images/blogImage.png";
 import Link from "next/link";
 
 const Blogger = (): JSX.Element => {

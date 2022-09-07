@@ -1,17 +1,17 @@
 import { StaticImageData } from "next/image";
-import backendFrontendLogo from "../../public/PNGs/backend-logo.png";
-import backendImage from "../../public/PNGs/backend-image.png";
-import frontendImage from "../../public/PNGs/fronted-team.jpg";
-import mobileLogo from "../../public/PNGs/mobile-logo.png";
-import mobileImage from "../../public/PNGs/mobile-image.jpg";
-import devopsLogo from "../../public/PNGs/devops-logo.png";
-import devopsImage from "../../public/PNGs/devops-team-image.jpg";
-import octoLogo from "../../public/PNGs/octo-logo.png";
-import octoImage from "../../public/PNGs/octo-image.png";
-import worthazeLogo from "../../public/PNGs/worthaze-logo.png";
-import worthazeImage from "../../public/PNGs/worthaze-image.png";
-import zalisoftSocialLogo from "../../public/PNGs/zalisoft-social.png";
-import zalisoftSocialImage from "../../public/PNGs/social-media-image.png";
+import backendFrontendLogo from "../../public/images/backend-logo.png";
+import backendImage from "../../public/images/backend-image.png";
+import frontendImage from "../../public/images/fronted-team.jpg";
+import mobileLogo from "../../public/images/mobile-logo.png";
+import mobileImage from "../../public/images/mobile-image.jpg";
+import devopsLogo from "../../public/images/devops-logo.png";
+import devopsImage from "../../public/images/devops-team-image.jpg";
+import octoLogo from "../../public/images/octo-logo.png";
+import octoImage from "../../public/images/octo-image.png";
+import worthazeLogo from "../../public/images/worthaze-logo.png";
+import worthazeImage from "../../public/images/worthaze-image.png";
+import zalisoftSocialLogo from "../../public/images/zalisoft-social.png";
+import zalisoftSocialImage from "../../public/images/social-media-image.png";
 
 export type Team = {
   id: number;
@@ -82,7 +82,7 @@ export const teams: Team[] = [
     description:
       "Mobil uygulamaların kullanımı ve popülerliği gün geçtikçe artarken mobil ekibimizle son teknolojiler kullanarak fikirlerinize özgü mobil uygulamalar geliştiriyoruz. Projelerinizi dijitale taşıdığımız bu süreçte mobil ekibimiz yanınızda size eşlik ediyor olacak",
     images: [mobileImage],
-    link: "takimlarimiz/mobile",
+    link: "takimlarimiz/mobil",
     skills: [
       "Flutter",
       "Dart",

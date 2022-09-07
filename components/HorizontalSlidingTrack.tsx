@@ -10,7 +10,7 @@ import { twMerge } from "tailwind-merge";
 
 const HorizontalSlidingTrack = ({
   direction = "to-left",
-  loopDuration = 20000,
+  loopDuration = 50000,
   className,
   children,
   ...rest

@@ -1,7 +1,7 @@
 import React from "react";
-import ArrowSVG from "@/public/SVGs/arrow.svg";
-import FileSVG from "@/public/SVGs/file.svg";
-import DateSVG from "@/public/SVGs/date.svg";
+import ArrowSVG from "@/public/icons/arrow.svg";
+import FileSVG from "@/public/icons/file.svg";
+import DateSVG from "@/public/icons/date.svg";
 
 export const AsideArrowIcon = (
   props: React.HTMLAttributes<HTMLOrSVGElement>
