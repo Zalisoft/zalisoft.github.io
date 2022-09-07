@@ -7,10 +7,10 @@ import React, { ComponentPropsWithoutRef } from "react";
 import { twMerge } from "tailwind-merge";
 import StreetView from "../../public/icons/home/map/street-view.svg";
 import Expand from "../../public/icons/home/map/expand.svg";
+import Link from "next/link";
 
 const LocationSection = () => {
   const { sm } = useResponsive({ watchPoints: ["sm"] });
-
   return (
     <PagePaddingContainer>
       <section className="my-20 flex flex-col items-center">
@@ -32,7 +32,7 @@ const LocationSection = () => {
               className="absolute bottom-2 right-2 h-[50%] md:h-[35%] lg:right-[4.5rem] xl:right-[5.5rem]"
             />
           )}
-          {!sm && <Map className="mx-auto mb-5 -mt-12 w-[90%] shadow-md" />}
+          {!sm && <Map className="mx-auto mb-5 mt-3 shadow-md" />}
         </div>
       </section>
     </PagePaddingContainer>
@@ -70,11 +70,16 @@ const Map = ({
           <Expand className="m-auto" />
         </a>
       </div>
-      <img
-        src={`https://maps.googleapis.com/maps/api/staticmap?markers=Zalisoft&zoom=16&size=1200x1200&scale=${scale}&key=AIzaSyAy4plJ-U7QWxbYtCtu_QqohPleN5lj_MM&language=tr`}
-        alt="Zalisoft location"
-        className="h-full w-full object-cover"
-      />
+      <Link
+        href="https://www.google.com/maps/search/?api=1&query=Zalisoft"
+        className="cursor-pointer"
+      >
+        <img
+          src={`https://maps.googleapis.com/maps/api/staticmap?markers=Zalisoft&zoom=16&size=1200x1200&scale=${scale}&key=AIzaSyAy4plJ-U7QWxbYtCtu_QqohPleN5lj_MM&language=tr`}
+          alt="Zalisoft location"
+          className="h-full w-full object-cover"
+        />
+      </Link>
     </div>
   );
 };
