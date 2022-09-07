@@ -82,7 +82,7 @@ const AboutUs = () => {
           />
         </div>
         <div className="flex basis-full flex-col text-center md:basis-1/2">
-          <Title>Our Story</Title>
+          <Title>Hakkımızda</Title>
           <p>
             İşimizi severek yapmanın ve çalışanlarımızın değerinin farkındayız.
             Bu sebeple ekibimiz için çalışma koşullarını her zaman daha iyi hale

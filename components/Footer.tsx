@@ -34,7 +34,7 @@ const Footer = () => {
           Mail listemize kaydolarak güncellemelerden haberdar olabilirsiiz ve
           güncel kalabilirsiniz.
         </p>
-        <ContactRequestFormInput />
+        <ContactRequestFormInput showAgreements={false} />
         <div className="flex flex-col gap-y-5 py-5 text-sm sm:flex-row sm:gap-[20%]">
           <div className="flex flex-col gap-y-2 hover:[&>a]:underline">
             <h3 className="text-xl ">Menü</h3>
