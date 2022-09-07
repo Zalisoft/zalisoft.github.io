@@ -16,7 +16,6 @@ import octoImage from "@/public/images/octo-image-1.png";
 import octoImage2 from "@/public/images/octo-creativity-slider-1.png";
 import CompletedWorks from "@/components/OurTeams/CompletedWorks";
 import Seo from "@/components/Seo";
-import octo from "@/public/PNGs/octo-logo.png";
 
 const OctoCreativityTeam = () => {
   function ArrowHidden(props: any) {
@@ -48,12 +47,6 @@ const OctoCreativityTeam = () => {
   ];
   return (
     <>
-      <div className="flex justify-center">
-        <NextImage
-          src={octo}
-          className="absolute top-[220px] z-[-99] mt-20 h-[2642px] w-full opacity-10"
-        />
-      </div>
       <PageTopSectionContainer>
         <Seo mainTitle="Octo Creativity" />
         <PagePaddingContainer>
