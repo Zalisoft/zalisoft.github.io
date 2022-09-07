@@ -7,15 +7,10 @@ import { teams } from "@/components/OurTeams/teams";
 import webTeamImage from "@/public/images/web-team-image.png";
 import CompletedWorks from "@/components/OurTeams/CompletedWorks";
 import Seo from "@/components/Seo";
-import web3x from "@/public/images/web_logo.png";
 
 const WebTeam = () => {
   return (
     <>
-      <NextImage
-        src={web3x}
-        className="mt-30 absolute top-[160px] z-[-99] mt-20 h-[278%] w-full overflow-x-hidden opacity-10"
-      />
       <PageTopSectionContainer>
         <PagePaddingContainer>
           <Seo mainTitle="Web" />

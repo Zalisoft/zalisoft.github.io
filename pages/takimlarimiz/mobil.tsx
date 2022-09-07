@@ -18,12 +18,6 @@ import mobile from "@/public/images/mobile-logo.png";
 const MobileTeam = () => {
   return (
     <>
-      <div className="flex justify-center">
-        <NextImage
-          src={mobile}
-          className="absolute top-[180px] z-[-99] mt-20 h-[2387px] w-[1258px]  opacity-10"
-        />
-      </div>
       <PageTopSectionContainer>
         <Seo mainTitle="Mobil" />
         <PagePaddingContainer>
