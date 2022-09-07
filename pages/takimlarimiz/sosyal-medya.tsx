@@ -6,14 +6,14 @@ import { teams } from "@/components/OurTeams/teams";
 import socialMediaTeamImage from "@/public/images/social-media-team.png";
 import NextImage from "@/components/NextImage";
 import Seo from "@/components/Seo";
-import socialmedia from "@/public/PNGs/social-media-logo.png";
+import socialmedia from "@/public/images/social-media-logo.png";
 
 const SocialTeam = () => {
   return (
     <>
       <NextImage
         src={socialmedia}
-        className="absolute top-[180px] z-[-99] mt-20 h-[380px] w-full xl-max:h-[50%]  xl-max:min-w-[1280px] xl-max:object-contain"
+        className="absolute top-[180px] z-[-99] mt-20 h-[380px] w-full max-w-full"
       />
       <PageTopSectionContainer>
         <PagePaddingContainer>

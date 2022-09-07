@@ -51,7 +51,7 @@ const OctoCreativityTeam = () => {
       <div className="flex justify-center">
         <NextImage
           src={octo}
-          className="absolute top-[220px] z-[-99] mt-20 h-[2642px] w-full opacity-10  xl-max:object-cover"
+          className="absolute top-[220px] z-[-99] mt-20 h-[2642px] w-full opacity-10"
         />
       </div>
       <PageTopSectionContainer>

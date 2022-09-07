@@ -14,7 +14,7 @@ import mobileTeamApp2 from "@/public/images/phone/mobile-team-app-2.png";
 import mobileTeamApp3 from "@/public/images/phone/mobile-team-app-3.png";
 import mobileTeamImage from "@/public/images/mobile-team-page-image.png";
 import Seo from "@/components/Seo";
-import mobile from "@/public/PNGs/mobile-logo.png";
+import mobile from "@/public/images/mobile-logo.png";
 const MobileTeam = () => {
   return (
     <>

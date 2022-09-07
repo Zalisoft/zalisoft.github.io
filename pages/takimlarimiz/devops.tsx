@@ -7,14 +7,15 @@ import NextImage from "@/components/NextImage";
 import { teams } from "@/components/OurTeams/teams";
 import CompletedWorks from "@/components/OurTeams/CompletedWorks";
 import Seo from "@/components/Seo";
-import socialmedia from "@/public/PNGs/devops-logo.png";
+import devops from "@/public/images/devops-logo.png";
 const DevOpsTeam = () => {
   return (
     <>
       <NextImage
-        src={socialmedia}
-        className="absolute top-[180px] z-[-99] mt-20 h-[1276px] w-full opacity-10 xl-max:object-cover"
+        src={devops}
+        className="absolute top-[180px] z-[-99] mt-20 h-[1276px] w-full opacity-10"
       />
+
       <PageTopSectionContainer>
         <PagePaddingContainer>
           <Seo mainTitle="Devops" />

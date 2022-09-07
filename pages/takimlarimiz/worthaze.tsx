@@ -6,14 +6,14 @@ import { teams } from "@/components/OurTeams/teams";
 import worthazeSliderImage1 from "@/public/images/worthaze-slider-1.png";
 import NextImage from "@/components/NextImage";
 import Seo from "@/components/Seo";
-import worthaze from "@/public/PNGs/worthaze-logo.png";
+import worthaze from "@/public/images/worthaze-logo.png";
 
 const Worthaze = () => {
   return (
     <>
       <NextImage
         src={worthaze}
-        className="absolute top-[85px] z-[-99] mt-20 h-[1185px] w-full  opacity-10 xl-max:min-w-[1280px]"
+        className="absolute top-[85px] z-[-99] mt-20 h-[1185px] w-full opacity-10"
       />
       <PageTopSectionContainer>
         <PagePaddingContainer>
