@@ -1,30 +1,30 @@
 import React from "react";
 import NextImage from "./NextImage";
-import phones from "../public/images/phones.png";
+import as7 from "../public/images/as7.png";
 import PagePaddingContainer from "./PagePaddingContainer";
 import AppleSVG from "../public/icons/apple.svg";
 import PlaystoreSVG from "../public/icons/playstore.svg";
 import AnimateReveal from "./AnimateReveal";
-import TeamLogo from "../public/icons/team-logo.svg";
+import AsLogo from "../public/icons/as-logo.svg";
+import Link from "next/link";
 
-const TeamAppLanding = () => {
+const AsApp = () => {
   return (
     <>
-      <div className="mb-14 flex items-center justify-center gap-x-6 sm-max:mb-0">
-        <TeamLogo className="h-16 w-16 " />
-        <h1 className="text-6xl font-semibold text-main-blue lg-max:text-4xl sm-max:text-xl">
-          Team App | <span className="font-light">Yönetim & Plan</span>{" "}
-        </h1>
-      </div>
+      <PagePaddingContainer>
+        <div className="flex items-center sm-max:mb-[-80px]  sm-max:justify-center">
+          <AsLogo className="h-20 w-72 sm-max:h-32 sm-max:w-32" />
+        </div>
+      </PagePaddingContainer>
       <PagePaddingContainer className="flex flex-row items-center justify-center gap-x-8 lg-max:flex-col ">
         <AnimateReveal
           direction="from-left"
           className="flex w-1/2 flex-col items-center justify-center lg-max:w-full"
         >
           <NextImage
-            src={phones}
+            src={as7}
             objectFit="contain"
-            className="aspect-[1] h-full w-full  lg-max:w-3/4 sm-max:aspect-[0.6] "
+            className="aspect-[1] h-full w-full  lg-max:w-3/4 sm-max:aspect-[0.6]"
           />
         </AnimateReveal>
 
@@ -32,27 +32,26 @@ const TeamAppLanding = () => {
           direction="from-right"
           className=" w-1/2 flex-col items-center justify-center lg-max:w-full"
         >
-          <div className="mx-auto h-64 max-w-[572px] rounded-3xl  sm-max:h-[170px] sm-max:w-full ">
+          <div className="mx-auto h-64 max-w-[572px] rounded-3xl pt-6 sm-max:h-[170px] sm-max:w-full">
             <iframe
               allowFullScreen
               className="h-full w-full rounded-3xl "
               src="https://www.youtube.com/embed/EObjoLRXCV8"
-              title="Zalisoft video"
+              // src="https://www.youtube.com/watch?v=Jv_2ogTgWOQ&list=WL&index=10"
+              // BU ÇALIŞMIYOR
+              title="AnnelerSatıyor video"
             ></iframe>
           </div>
 
-          <div className="mx-auto mt-11 max-w-[572px] text-4xl font-medium text-main-blue xl-max:text-2xl sm-max:text-base">
-            TeamApp |
-            <span className="font-extralight sm-max:font-medium">
-              {" "}
-              Yönetim & Plan{" "}
-            </span>
+          <div className="sm-max: mt-8 mb-12 w-full">
+            <p className="ml-9 sm-max:ml-[-6px]">Annelerin Sosyal Pazar Yeri</p>
+            <p className="hover:tracking-wider hover:text-black">
+              <Link href={"https://annelersatiyor.com/"} className="ml-9">
+                https://annlersatiyor.com
+              </Link>
+            </p>
           </div>
-          <p className="mx-auto mt-4 max-w-[572px] items-center text-sm font-medium text-dark">
-            Yönetim, takip ve planlama alanında sektöre yeni bir soluk getirecek
-            olan mobil uygulamamız TeamApp çok yakında AppStore ve PlayStore da
-            yayında olacak.
-          </p>
+
           <div className="mx-auto mt-4 flex  max-w-[572px] flex-row gap-x-2 pb-36">
             <div className="flex h-[53px] w-[180px] items-center justify-center gap-x-2 rounded-xl bg-black p-2">
               <AppleSVG />
@@ -71,4 +70,4 @@ const TeamAppLanding = () => {
   );
 };
 
-export default TeamAppLanding;
+export default AsApp;

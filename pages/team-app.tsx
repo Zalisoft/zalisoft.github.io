@@ -64,19 +64,9 @@ const TeamApp = () => {
       <PageTopSectionContainer>
         <Seo mainTitle="Team App" />
         <PagePaddingContainer>
-          <div className="flex w-full flex-col justify-center">
-            <h1 className=" text-center text-4xl font-medium text-main-blue">
-              TeamAPP
-            </h1>
-            <p className="mx-auto mt-6 mb-14 h-11 max-w-[630px] text-center text-sm text-dark">
-              Yönetim, takip ve planlama alanında sektöre yeni bir soluk
-              getirecek olan mobil uygulamamız TeamApp çok yakında AppStore ve
-              PlayStore da yayında olacak.
-            </p>
-          </div>
           <TeamAppLanding />
           <div className="flex justify-center">
-            <div className="mt-10 mb-64 grid grid-cols-3 gap-y-20 gap-x-5 lg-max:grid-cols-2 md-max:grid-cols-1">
+            <div className="mb-28 grid grid-cols-3 gap-y-20 gap-x-5 lg-max:grid-cols-2 md-max:grid-cols-1 sm-max:mt-[-150px]">
               {fakeCategories.map((fake, index) => (
                 <div
                   key={index}

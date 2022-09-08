@@ -19,6 +19,7 @@ module.exports = {
         main: {
           blue: "#4841FF",
           purple: "#BE34FF",
+          asGreen: "#37A492",
         },
         blueBg: "#EFF5FF",
         purpleBg: "#FAEEFF",

@@ -1,7 +1,5 @@
 import PagePaddingContainer from "@/components/PagePaddingContainer";
-import PageTopSectionContainer from "@/components/PageTopSectionContainer";
 import TurkeySVG from "../public/icons/turkey.svg";
-import ArrowSVG from "../public/icons/arrow-down.svg";
 import SendIcon from "../public/icons/send.svg";
 import React, { useState } from "react";
 import Button from "@/components/Button";
@@ -91,7 +89,7 @@ const ContactUs = () => {
     <>
       <PagePaddingContainer>
         <Seo mainTitle="İletişim" />
-        <PageTopSectionContainer>
+        <div className="mt-28">
           <h1 className="text-center text-4xl font-medium text-main-blue">
             İletişim
           </h1>
@@ -99,7 +97,8 @@ const ContactUs = () => {
             Projeleriniz için veya sorularınız için bizimle iletişime geçin. En
             kısa zamanda size geri dönüş yapacağız.
           </p>
-        </PageTopSectionContainer>
+        </div>
+
         <form
           onSubmit={handleSubmit(onSubmit, onError)}
           className="mx-auto flex max-w-[1155px] flex-row items-center justify-center gap-x-[35px] md-max:mt-16 md-max:flex-col "
@@ -118,7 +117,7 @@ const ContactUs = () => {
             </label>
             <input
               className="h-[54px] w-full rounded-[16px] bg-white p-3 outline-none placeholder:text-sm placeholder:text-gray"
-              placeholder="E-posta adresiniz"
+              placeholder="E-posta adresinizi giriniz.."
               {...register("email")}
             />
             <label className="mb-1 mt-8 font-medium text-dark">
@@ -154,7 +153,7 @@ const ContactUs = () => {
               className="h-[164px] w-full resize-none rounded-[16px] p-4 outline-none placeholder:text-sm placeholder:text-gray"
               {...register("message")}
             />
-            <div className="mt-8 flex  w-full flex-row items-center gap-x-2 md-max:hidden">
+            {/* <div className="mt-8 flex  w-full flex-row items-center gap-x-2 md-max:hidden">
               <div>
                 <p className="h-full min-w-[96px] text-xs text-dark">
                   Bazı kategoriler:
@@ -177,11 +176,11 @@ const ContactUs = () => {
                   ercan
                 </Button>
               </div>
-            </div>
+            </div> */}
             <Button
               isLoading={loading}
               type="submit"
-              className="mt-5 flex justify-center gap-x-4"
+              className="mt-16 flex justify-center gap-x-4"
             >
               <span>Mesajımı Gönder</span>
               <SendIcon />

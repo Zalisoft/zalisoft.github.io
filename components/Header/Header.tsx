@@ -57,7 +57,7 @@ const Header = () => {
             title="Takımlar"
             link="/takimlarimiz"
           />
-          <NavLink title="Projelerimiz" link="/team-app" />
+          <NavLink title="Projelerimiz" link="/projelerimiz" />
           <NavLink title="Referanslarımız" link="/#business-partners" />
           <Link href="/iletisim">
             <Button className="flex gap-3">
