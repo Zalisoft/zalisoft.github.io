@@ -43,6 +43,7 @@ const Header = () => {
           <TextLogo className="shrink-0" />
         </Link>
         <div className="flex grow items-center justify-between text-sm md-max:hidden">
+          <NavLink title="Anasayfa" link="/" />
           <NavLink title="Hakkımızda" link="/hakkimizda" />
           <NavLink
             className="lg-max:hidden"

@@ -2,26 +2,26 @@ import NextImage from "@/components/NextImage";
 import PagePaddingContainer from "@/components/PagePaddingContainer";
 import PageTopSectionContainer from "@/components/PageTopSectionContainer";
 import React from "react";
-import RotarySVG from "../public/icons/rotary.svg";
+import RotarySVG from "../../public/icons/rotary.svg";
 import Seo from "@/components/Seo";
 import Link from "next/link";
-import AppleSVG from "../public/icons/apple.svg";
-import AsLogo from "../public/icons/as-logo.svg";
-import PlaystoreSVG from "../public/icons/playstore.svg";
+import AppleSVG from "../../public/icons/apple.svg";
+import AsLogo from "../../public/icons/as-logo.svg";
+import PlaystoreSVG from "../../public/icons/playstore.svg";
 import AnimateReveal from "@/components/AnimateReveal";
 import { ReactNode } from "react";
-import as1 from "../public/images/as1.png";
-import as2 from "../public/images/as2.png";
-import as3 from "../public/images/as3.png";
-import as4 from "../public/images/as4.png";
-import as5 from "../public/images/as5.png";
-import as6 from "../public/images/as6.png";
+import as1 from "../../public/images/as1.png";
+import as2 from "../../public/images/as2.png";
+import as3 from "../../public/images/as3.png";
+import as4 from "../../public/images/as4.png";
+import as5 from "../../public/images/as5.png";
+import as6 from "../../public/images/as6.png";
 
 const AsApp = () => {
   return (
     <>
       <PageTopSectionContainer>
-        <Seo mainTitle="anneler-satiyor" />
+        <Seo mainTitle="Anneler Satıyor" />
         <PagePaddingContainer>
           <div className="mb-[-40px]  flex h-16 w-52 cursor-pointer sm-max:mx-auto sm-max:mb-[-80px]">
             <Link href={"https://annelersatiyor.com/"} target={"_blank"}>
@@ -49,9 +49,7 @@ const AsApp = () => {
               <iframe
                 allowFullScreen
                 className="h-full w-full rounded-3xl "
-                src="https://www.youtube.com/embed/EObjoLRXCV8"
-                // src="https://www.youtube.com/watch?v=Jv_2ogTgWOQ&list=WL&index=10"
-                // BU ÇALIŞMIYOR
+                src="https://www.youtube.com/embed/Jv_2ogTgWOQ"
                 title="AnnelerSatıyor video"
               ></iframe>
             </div>

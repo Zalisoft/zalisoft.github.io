@@ -70,16 +70,18 @@ const Map = ({
           <Expand className="m-auto" />
         </a>
       </div>
-      <Link
+      <a
         href="https://www.google.com/maps/search/?api=1&query=Zalisoft"
         className="cursor-pointer"
+        target="_blank"
+        rel="noreferrer"
       >
         <img
           src={`https://maps.googleapis.com/maps/api/staticmap?markers=Zalisoft&zoom=16&size=1200x1200&scale=${scale}&key=AIzaSyAy4plJ-U7QWxbYtCtu_QqohPleN5lj_MM&language=tr`}
           alt="Zalisoft location"
           className="h-full w-full object-cover"
         />
-      </Link>
+      </a>
     </div>
   );
 };

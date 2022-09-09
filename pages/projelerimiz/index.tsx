@@ -5,13 +5,15 @@ import AsAppLanding from "@/components/AsApp";
 import Link from "next/link";
 import React from "react";
 import ArrowRight from "@/public/icons/arrow-right-long.svg";
+import Seo from "@/components/Seo";
 
 const Layout = () => {
   return (
     <PageTopSectionContainer>
+      <Seo mainTitle="Projelerimiz" />
       <TeamAppLanding />
       <div className="mb-16 flex justify-center sm-max:mt-[-50px]">
-        <Link href="/team-app">
+        <Link href="/projelerimiz/team-app">
           <Button className="flex gap-3">
             <span>Daha Fazla Gör</span>
             <ArrowRight />
@@ -20,7 +22,7 @@ const Layout = () => {
       </div>
       <AsAppLanding />
       <div className="flex justify-center sm-max:mt-[-50px]">
-        <Link href="/anneler-satiyor">
+        <Link href="/projelerimiz/anneler-satiyor">
           <Button className="flex gap-3">
             <span>Daha Fazla Gör</span>
             <ArrowRight />

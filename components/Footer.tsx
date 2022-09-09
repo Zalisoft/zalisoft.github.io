@@ -69,55 +69,55 @@ const Footer = () => {
                 </tr>
               </tbody>
             </table>
+            <div className="flex items-center gap-2">
+              <a
+                href=""
+                className="rounded-full p-2 hover:bg-white/20"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Facebook className="h-5 w-5" />
+              </a>
+              <a
+                href="https://twitter.com/zalisoft"
+                className="rounded-full p-2 hover:bg-white/20"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Twitter className="h-5 w-5" />
+              </a>
+              <a
+                href="https://www.instagram.com/zalisoft"
+                className="rounded-full p-2 hover:bg-white/20"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Instagram className="h-5 w-5" />
+              </a>
+              <a
+                href=""
+                className="rounded-full p-2 hover:bg-white/20"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Youtube className="h-5 w-5" />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/zalisoft"
+                className="rounded-full p-2 hover:bg-white/20"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Linkedin className="h-5 w-5" />
+              </a>
+              {/*<Link*/}
+              {/*  href="/admin/blog"*/}
+              {/*  className="rounded-full p-2 hover:bg-white/20"*/}
+              {/*>*/}
+              {/*  <UserIcon className="h-5 w-5" />*/}
+              {/*</Link>*/}
+            </div>
           </div>
-        </div>
-        <div className="flex items-center gap-2 sm-max:justify-center">
-          <a
-            href=""
-            className="rounded-full p-2 hover:bg-white/20"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Facebook className="h-5 w-5" />
-          </a>
-          <a
-            href="https://twitter.com/zalisoft"
-            className="rounded-full p-2 hover:bg-white/20"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Twitter className="h-5 w-5" />
-          </a>
-          <a
-            href="https://www.instagram.com/zalisoft"
-            className="rounded-full p-2 hover:bg-white/20"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Instagram className="h-5 w-5" />
-          </a>
-          <a
-            href=""
-            className="rounded-full p-2 hover:bg-white/20"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Youtube className="h-5 w-5" />
-          </a>
-          <a
-            href="https://www.linkedin.com/company/zalisoft"
-            className="rounded-full p-2 hover:bg-white/20"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Linkedin className="h-5 w-5" />
-          </a>
-          {/*<Link*/}
-          {/*  href="/admin/blog"*/}
-          {/*  className="rounded-full p-2 hover:bg-white/20"*/}
-          {/*>*/}
-          {/*  <UserIcon className="h-5 w-5" />*/}
-          {/*</Link>*/}
         </div>
       </div>
     </footer>

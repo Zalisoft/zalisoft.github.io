@@ -4,14 +4,14 @@ import PageTopSectionContainer from "@/components/PageTopSectionContainer";
 import TeamAppLanding from "@/components/TeamAppLanding";
 import { StaticImageData } from "next/image";
 import React from "react";
-import RotarySVG from "../public/icons/rotary.svg";
-import AnimateRevael from "../components/AnimateReveal";
-import profile1 from "../public/images/Profile.png";
-import profile2 from "../public/images/Profile2.png";
-import profile3 from "../public/images/Profile3.png";
-import profile4 from "../public/images/Profile4.png";
-import profile5 from "../public/images/Profile5.png";
-import profile6 from "../public/images/Profile6.png";
+import RotarySVG from "../../public/icons/rotary.svg";
+import AnimateRevael from "../../components/AnimateReveal";
+import profile1 from "../../public/images/Profile.png";
+import profile2 from "../../public/images/profile2.png";
+import profile3 from "../../public/images/profile3.png";
+import profile4 from "../../public/images/profile4.png";
+import profile5 from "../../public/images/profile5.png";
+import profile6 from "../../public/images/profile6.png";
 import Seo from "@/components/Seo";
 
 type Props = {

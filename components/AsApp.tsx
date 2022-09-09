@@ -36,9 +36,7 @@ const AsApp = () => {
             <iframe
               allowFullScreen
               className="h-full w-full rounded-3xl "
-              src="https://www.youtube.com/embed/EObjoLRXCV8"
-              // src="https://www.youtube.com/watch?v=Jv_2ogTgWOQ&list=WL&index=10"
-              // BU ÇALIŞMIYOR
+              src="https://www.youtube.com/embed/Jv_2ogTgWOQ"
               title="AnnelerSatıyor video"
             ></iframe>
           </div>

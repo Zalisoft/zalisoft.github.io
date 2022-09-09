@@ -140,7 +140,7 @@ const ServiceRequestSection = () => {
           className="flex flex-col items-center"
           onSubmit={handleSubmit(onSubmit, onError)}
         >
-          <div className="mb-10 flex flex-wrap items-center justify-center gap-6">
+          <div className="mb-10 flex max-w-5xl flex-wrap items-center justify-center gap-6">
             {services.map((service, index) => (
               <Checkbox
                 key={index}

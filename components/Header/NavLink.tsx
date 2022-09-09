@@ -16,7 +16,10 @@ const NavLink = ({
   children?: ReactNode;
 }) => {
   const router = useRouter();
-  const isCurrentPage = link && router.pathname.startsWith(link);
+  const isCurrentPage =
+    link &&
+    ((link != "/" && router.asPath.startsWith(link)) ||
+      (link == "/" && router.asPath == link));
 
   return !children && link ? (
     <Link
