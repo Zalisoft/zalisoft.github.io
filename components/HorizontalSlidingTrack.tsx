@@ -8,6 +8,13 @@ import {
 } from "react-spring";
 import { twMerge } from "tailwind-merge";
 
+/**
+ * Note: Do not put inside items-centered container.
+ * Else `while (listScrollWidth < listWidth * 2)` logic will cause an infinite loop on chromium based browsers.
+ * Recent updates on chromium based browsers seem to break `clientWidth`-`scrollWidth` when in items-centered container.
+ * They are now the same regardless of the width of the content in chromium based browsers when in items-centered container.
+ *
+ */
 const HorizontalSlidingTrack = ({
   direction = "to-left",
   loopDuration = 50000,

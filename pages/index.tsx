@@ -102,7 +102,7 @@ const Home: NextPage = () => {
       <LocationSection />
       <section
         id="business-partners"
-        className="my-20 flex scroll-mt-20 flex-col items-center"
+        className="my-20 flex scroll-mt-20 flex-col"
       >
         <DelayedAnimateReveal enabledDelay={2000}>
           <HorizontalSlidingTrack className="h-16 items-center gap-8 [&>*]:h-14 [&>*]:w-32 [&>*]:cursor-pointer [&>*]:object-contain [&>*]:opacity-50 [&>*]:transition-[opacity,transform] [&>*]:duration-500 hover:[&>*]:scale-110 hover:[&>*]:opacity-100">
@@ -122,7 +122,7 @@ const Home: NextPage = () => {
             />
           </HorizontalSlidingTrack>
         </DelayedAnimateReveal>
-        <PagePaddingContainer>
+        <PagePaddingContainer className="flex flex-col items-center">
           <Title>İş Ortaklarımız</Title>
           <p className="mb-10 max-w-2xl text-center">
             İşlerimizi daha da ileriye taşırken bu süreçte yanımızda olan iş

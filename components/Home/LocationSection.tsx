@@ -76,9 +76,12 @@ const Map = ({
         target="_blank"
         rel="noreferrer"
       >
-        <img
-          src={`https://maps.googleapis.com/maps/api/staticmap?markers=Zalisoft&zoom=16&size=1200x1200&scale=${scale}&key=AIzaSyAy4plJ-U7QWxbYtCtu_QqohPleN5lj_MM&language=tr`}
-          alt="Zalisoft location"
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4213.296450102117!2d28.986806800000004!3d40.21120620000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ca156d0d10898d%3A0x78a1d45648365eb2!2sZalisoft!5e1!3m2!1sen!2sbf!4v1750152685558!5m2!1sen!2sbf"
+          style={{ border: 0 }}
+          allowFullScreen={true}
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
           className="h-full w-full object-cover"
         />
       </a>
